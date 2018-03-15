@@ -25,3 +25,10 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
+# So you can host the site localy for testing purposes
+gem "middleman", "~>3.3.3"
+
+# Live-reloading plugin
+gem "middleman-livereload", "~> 3.1.0"
+
+gem 'middleman-gh-pages'
